@@ -1,0 +1,83 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 80px 170px;
+    color: azure;
+}
+
+.about_title{
+    justify-content: center;
+    position: relative;
+    margin-left: 30px;
+}
+
+.about_title h1 {
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600; /* Ensure h1 is positioned relative to the container */
+    z-index: 2; /* Ensure text is above the image */
+    margin: 0; 
+    position: relative;
+    background:none;
+}
+
+.about_title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1; /* Ensure image is behind the text */ /* Maintain image aspect ratio */ /* Ensure image does not overflow the container */
+}
+
+.aboutsection{
+    display: flex;
+    gap: 10px;
+}
+
+.about-img{
+    width:800px;
+    height: 800px;
+    background-image: url(../../assets/aboutpic.jpg);
+    background-size: cover;
+    left:0
+}
+
+.about-text{
+        max-width: 550px;
+        font-size: 20px;
+        display:  flex;
+        flex-direction: column;
+}
+.about-text p{
+    font-size: 22px;
+    padding-top:10px;
+}
+.about-text h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+.about-text span{
+    background-image:linear-gradient(276deg ,#d89454 0%,#c065da 120.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 0px;
+}
+.Icon{
+    margin-top: 0px;
+    padding: 0px 10px 6px 10px;
+    text-decoration: none;
+    border: none;
+}
+.Links{
+    margin-top: 10px;
+}

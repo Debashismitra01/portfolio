@@ -1,0 +1,47 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin : 20px 170px;
+}
+
+.navbar img{
+    max-width: 200px;
+    height: auto;
+}
+
+.navbar-menu{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style:none ;
+    font-size: 20px;
+    gap:60px;
+}
+.navbar-link{
+    text-decoration: none;
+    color: azure;
+}
+
+
+.nav-item {
+    display: inline;
+}
+
+.nav-link {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.selected {
+    border-image: linear-gradient(to right,#DA7C25,#B923E1) 1;
+    background: linear-gradient(#333,#333) padding-box,
+    linear-gradient(to right, #DA7C25, #B923E1) border-box;
+    border-bottom: 2px solid transparent;
+    text-decoration:none;
+}
