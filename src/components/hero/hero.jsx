@@ -10,7 +10,7 @@ const Hero = () => {
             <h2> I'M <span>DEBASHIS MITRA</span></h2>
             <div className="hero-action">
                 <div className="hero-connect">Connect with me</div>
-                <a className="hero-resume" href="1JFK06oc3LIk1tZjhll4CzoXlIgxlc0J6" download="DebashisMitraResume">My Resume</a>
+                <a className="hero-resume" href="https://drive.google.com/uc?export=download&id=1JFK06oc3LIk1tZjhll4CzoXlIgxlc0J6" download="DebashisMitraResume">My Resume</a>
             </div>
             </div>
             <div className="profile">
